@@ -1,0 +1,10 @@
+name: firstflow
+on: workflow_dispatch
+jobs:
+  j1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: s1
+        run: echo "Hello INDURI R REDDY"
+      - name: s2
+        run: echo $(whoami)
